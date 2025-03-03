@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme {
-  --font-mono: var(--font-ibm-plex-mono);
+  --font-sans: var(--font-ms-sans-serif);
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #007D76;
+  --foreground: #ededed;
 }
 
 @media (prefers-color-scheme: dark) {

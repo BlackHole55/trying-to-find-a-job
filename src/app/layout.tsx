@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
+import { Navbar } from "./components/nav";
 
-const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-ibm-plex-mono",
-  weight: "500",
+const MsSansSerif = localFont({
+  src: '../../public/fonts/MS-Sans-Serif-8pt.ttf',
+  variable: '--font-ms-sans-serif',
+  display: 'swap'
 });
 
 export const metadata: Metadata = {
@@ -18,11 +20,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${ibmPlexMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${MsSansSerif.variable} antialiased`}>
+      <body>
         {children}
+        <Navbar />
       </body>
     </html>
   );

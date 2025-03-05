@@ -20,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${MsSansSerif.variable} antialiased`}>
-      <body>
+    <html lang="en">
+      <body className={`${MsSansSerif.variable} antialiased tracking-wider`}>
         {children}
         <Navbar />
       </body>

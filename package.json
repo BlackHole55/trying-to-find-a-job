@@ -11,7 +11,8 @@
   "dependencies": {
     "next": "15.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-live-clock": "^6.1.25"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

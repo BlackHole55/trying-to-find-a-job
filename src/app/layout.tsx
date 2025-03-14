@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${MsSansSerif.variable} antialiased tracking-wider`}>
+      <body className={`${MsSansSerif.variable} antialiased tracking-wider overflow-hidden h-screen`}>
         {children}
         <Navbar />
       </body>

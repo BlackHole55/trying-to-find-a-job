@@ -18,7 +18,7 @@ export function Navbar() {
   }
 
   return (
-    <aside className="absolute w-full bottom-0">
+    <aside className="fixed w-full bottom-0">
       <nav className="flex flex-row items-start relative bg-[#B5BEB2] h-[4%] border-t-[#E8E8E8] border-t-3 text-black font-[family-name:var(--font-ms-sans-serif)] text-sm">
         <Link href='/' className='flex align-middle relative py-0.5 px-1 my-0.5 mx-1 border-2 border-t-[#E8E8E8] border-l-[#E8E8E8] font-bold'>
           <WindowsIcon className="mr-1" /> Start

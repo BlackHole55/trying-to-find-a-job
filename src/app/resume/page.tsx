@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 export default function Resume() {
     return (
-        <div className="grid grid-cols-[1fr_2fr_1fr] grid-rows-[1fr_4fr_2fr] min-h-screen max-h-screen">
-            <div className="col-start-2 row-start-2 w-full bg-white border-2 border-b-black border-r-black outline-3 outline-[#B5BEB2] -outline-offset-4 ">
+        <div className="sm:grid sm:grid-cols-[1fr_2fr_1fr] sm:grid-rows-[1fr_4fr_2fr] h-screen">
+            <div className="sm:col-start-2 sm:row-start-2 sm:h-full w-full h-[96%] bg-white border-2 border-b-black border-r-black outline-3 outline-[#B5BEB2] -outline-offset-4">
                 <div className="flex align-middle justify-between px-1.5 mt-0.5 text-center bg-[#000080] h-6 font-sans font-bold text-sm">
                     <div className='flex gap-1.5 pt-1'><TxtIcon /> Resume - Notepad</div>
                     <div className='flex py-1'>
@@ -22,7 +22,7 @@ export default function Resume() {
                     <div>Search</div>
                     <div>Help</div>
                 </div>
-                <div className="h-90 px-5 pt-2 mx-1 text-black overflow-auto">
+                <div className="sm:h-90 h-full px-5 pt-2 mx-1 text-black overflow-auto">
                     <div className='flex justify-between'>
                         <div>
                             <h1 className='text-3xl font-bold'>Syzdykov Meirhan</h1>
